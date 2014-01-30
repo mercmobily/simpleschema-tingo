@@ -12,8 +12,6 @@ var
   dummy
 
 , declare = require('simpledeclare')
-, mongoWrapper = require('mongowrapper')
-
 , engine = require("tingodb")({})
 ;
 
