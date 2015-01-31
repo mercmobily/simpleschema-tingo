@@ -26,7 +26,7 @@ var ObjectId = function( id ){
   return engine.ObjectID.createFromString( id );
 }
 
-var TingoSchemaMixin = declare( null, {
+var TingoSchemaMixin = declare( Object, {
 
   // Cast an ID for this particular engine. If the object is in invalid format, it won't
   // get cast, and as a result check will fail
